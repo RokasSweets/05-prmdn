@@ -61,7 +61,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-RokasSweets: [Github](https://github.com/)
+RokasSweets: [Github](https://github.com/RokasSweets)
 
 ## ⚠️ License
 
