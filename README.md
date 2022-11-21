@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: 
+Site published at: [Github](https://rokassweets.github.io/05-prmdn)
 
 Design: [Happy Weekend](./img/design.png)
 
@@ -40,7 +40,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/41-grupe-ufo.git
+    git clone https://github.com/RokasSweets/05-prmdn.git
     ```
 2. Install NPM packages
     ```sh
