@@ -43,6 +43,7 @@
             display: inline-block;
             border-radius: 0.2em;
             line-height: 1em;
+            transition: all 0.3s;
             }
         
         nav > a:first-child {
@@ -75,6 +76,50 @@
             width: 60%;
             float: right;
             }
+
+        h1 {
+            color: #3F4371;
+            font-size: 55px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        
+        h1 > span {
+            font-size: 45px;
+        }
+       
+        p {
+            font-size: 18px;
+            line-height: 1.3em;
+            letter-spacing: 0.05em;
+            word-spacing: 0.3em;
+        }
+
+        main > div > a {
+            background-color: #3F4371;
+            color: #fff;
+            font-size: 20px;
+            padding: 0.5em;
+            padding-left: 3em;
+            padding-right: 3em;
+            text-decoration: none;
+            border-radius: 0.4em;
+            display: inline-block;
+            text-transform: uppercase;
+            box-shadow: 0px 0.5em 0.2em -0.45em #888;
+            transition: all 1s;
+        }
+
+        main > div > a:hover {
+            box-shadow: 0px 0.6em 0.4em -0.5em #555;
+
+        }
+
+        div > div {
+            margin-top: 50px;
+        }
+
+        div > div > a {}
     </style>
 </head>
 <body>
@@ -91,7 +136,17 @@
 
     <main>
         <div>
-            left content
+            <h1>A happy <span>weekend</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis eligendi 
+                quaerat fuga omnis voluptatum ex qui, nihil aliquid officiis nulla illum, impedit cum provident r
+                erum velit molestiae ullam voluptatibus.</p>
+            <a href="#">More</a>
+            <div>
+                <a href="#">ig</a>
+                <a href="#">tw</a>
+                <a href="#">fb</a>
+
+            </div>
         </div>
         <img src="./img/main.png" alt="main">
     </main>
