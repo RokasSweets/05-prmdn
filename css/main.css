@@ -116,4 +116,9 @@ nav {
     float: left;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
+    transition: all 0.5s;
+}
+
+.socials > .icon:hover {
+    box-shadow: 0 4px 8px #777;
 }
