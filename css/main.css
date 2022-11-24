@@ -1,3 +1,8 @@
+:root {
+    --main-color: #3f4371;
+
+}
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -9,13 +14,13 @@ body {
 
 .main-header {
     display: inline-block;
-    margin-left: calc(50% - 400px);
+    margin-left: calc(50% - 500px);
     margin-top: 40px;
-    width: 800px;
+    width: 1000px;
     }
 
 .main-header > nav > a {
-    color: #3F4371;
+    color: var(--main-color);
     font-size: 18px;
     text-decoration: none;
     font-family: tahoma;
@@ -30,25 +35,24 @@ body {
     transition: all 0.2s;
     }
 
-nav > a:first-child {
-    margin-left: 0;
-    }
-
-nav > a:hover {
-    border: 2px solid #3F4371;
-}
-
-nav {
-    
+.main-nav {
     float: right;
     margin-top: 4px;
     }
 
+.main-nav > a:first-child {
+    margin-left: 0;
+    }
+
+.main-nav > a:hover {
+    border: 2px solid var(--main-color);
+}
+
 .main-content {
     display: inline-block;
-    margin-left: calc(50% - 400px);
+    margin-left: calc(50% - 500px);
     margin-top: 40px;
-    width: 800px;
+    width: 1000px;
     }
 
 .main-content > div {
@@ -62,7 +66,7 @@ nav {
     }
 
 .main-title {
-    color: #3F4371;
+    color: var(--main-color);
     font-size: 55px;
     text-transform: uppercase;
     margin: 0;
@@ -80,7 +84,7 @@ nav {
 }
 
 .btn {
-    background-color: #3F4371;
+    background-color: var(--main-color);
     color: #fff;
     font-size: 20px;
     padding: 0.5em;
@@ -106,7 +110,7 @@ nav {
 .socials > .icon {
     text-decoration: none;
     font-size: 20px;
-    background-color: #3F4371;
+    background-color: var(--main-color);
     color: #fff;
     border-radius: 50%;
     width: 2em;
