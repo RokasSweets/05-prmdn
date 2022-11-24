@@ -13,74 +13,13 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <style>
-        body {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        header > img {
-            float: left;
-            height: 40px;
-            }
-        
-        header {
-            display: inline-block;
-            margin-left: calc(50% - 400px);
-            margin-top: 40px;
-            width: 800px;
-            }
-
-        header > nav > a {
-            color: #3F4371;
-            font-size: 18px;
-            text-decoration: none;
-            font-family: tahoma;
-            margin-left: 0.5em;
-            border: 0.1em solid transparent;
-            padding: 0.3em;
-            padding-left: 0.7em;
-            padding-right: 0.7em;
-            display: inline-block;
-            border-radius: 0.2em;
-            line-height: 1em;
-            }
-        
-        nav > a:first-child {
-            margin-left: 0;
-            }
-
-        nav > a:hover {
-            border: 2px solid #3F4371;
-        }
-
-        nav {
-            
-            float: right;
-            margin-top: 4px;
-            }
-
-        main {
-            display: inline-block;
-            margin-left: calc(50% - 400px);
-            margin-top: 40px;
-            width: 800px;
-            }
-
-        main > div {
-            width: 35%;
-            float: left;
-            }
-
-        main > img {
-            width: 60%;
-            float: right;
-            }
-    </style>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="logo">
-        <nav>
+    <header class="main-header">
+        <img class="logo" src="./img/logo.png" alt="logo">
+        <nav class="main-nav">
             <a style="border: 2px solid #3F4371;" href="#">Home</a>
             <a href="#">Project</a>
             <a href="#">About</a>
@@ -89,9 +28,19 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main-content">
         <div>
-            left content
+            <h1 class="main-title">A happy <span>weekend</span></h1>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis eligendi 
+                quaerat fuga omnis voluptatum ex qui, nihil aliquid officiis nulla illum, impedit cum provident r
+                erum velit molestiae ullam voluptatibus.</p>
+            <a class="btn" href="#">More</a>
+            <div class="socials">
+                <a class="icon fa fa-instagram" href="#"></a>
+                <a class="icon fa fa-twitter" href="#"></a>
+                <a class="icon fa fa-facebook" href="#"></a>
+
+            </div>
         </div>
         <img src="./img/main.png" alt="main">
     </main>
