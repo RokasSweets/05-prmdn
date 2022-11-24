@@ -44,19 +44,19 @@ nav {
     margin-top: 4px;
     }
 
-main {
+.main-content {
     display: inline-block;
     margin-left: calc(50% - 400px);
     margin-top: 40px;
     width: 800px;
     }
 
-main > div {
+.main-content > div {
     width: 35%;
     float: left;
     }
 
-main > img {
+.main-content > img {
     width: 60%;
     float: right;
     }
@@ -103,4 +103,17 @@ main > img {
     margin-top: 50px;
 }
 
-.socials > a {}
+.socials > .icon {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #3F4371;
+    color: #fff;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
